@@ -1224,6 +1224,8 @@
 			}
 
 		#header .logo {
+			background-image: url("../../images/profile_pic.jpg");
+			background-size: contain;
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;

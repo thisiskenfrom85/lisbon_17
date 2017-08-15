@@ -1258,6 +1258,12 @@
 				max-height: 40rem;
 				overflow: hidden;
 			}
+			.inner h1 {
+				text-transform: uppercase;
+				letter-spacing: 2px !important;
+				font-weight: 300;
+
+			}
 
 				#header .content .inner > :last-child {
 					margin-bottom: 0;
@@ -1299,7 +1305,8 @@
 					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
-					font-size: 0.8rem;
+					font-size: 1.2rem;
+					font-weight: 900;
 					border-bottom: 0;
 				}
 
@@ -1486,6 +1493,9 @@
 			opacity: 0;
 		}
 
+		#main article p {
+			letter-spacing: 1px;
+		}
 			#main article.active {
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
